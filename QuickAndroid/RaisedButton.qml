@@ -25,7 +25,7 @@ Button {
         opacity: button.enabled ? 1 : material.disabledOpacity
 
         color: button.backgroundColor
-        clip: true
+//        clip: true
 
         MaterialShadow {
             asynchronous: true

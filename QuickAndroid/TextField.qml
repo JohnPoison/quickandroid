@@ -27,7 +27,7 @@ Control.TextField {
 
     font.bold: material.text.bold
 
-    height: (hasFloatingLabel ? 72 * A.dp : 48 * A.dp) + _fontDiff
+    implicitHeight: (hasFloatingLabel ? 72 * A.dp : 48 * A.dp) + _fontDiff
 
     verticalAlignment: Text.AlignBottom
 
